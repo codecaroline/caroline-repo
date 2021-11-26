@@ -1,0 +1,125 @@
+
+/*Card*/
+body{
+    margin: 0;
+    background-size: 100%;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+p {
+    font-size: 18px;
+    color: hsl(224, 23%, 55%);
+}
+
+h1{
+    color: hsl(223, 47%, 23%);
+}
+
+.card {
+    text-align: center;
+    margin: 10% auto;
+    border-radius: 25px;
+    background-color: white;
+    width: 450px;
+    box-shadow: 3px 3px 3px hsl(223, 47%, 23%, 0.15);
+}
+
+.card-img-top {
+    border-radius: 25px 25px 0px 0px;
+}
+
+.card-body {
+    padding: 20px 50px;
+}
+
+/*Annual Plan*/
+
+.plan{
+    background-color: hsl(225, 100%, 98%);;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.music-icon-img {
+    float: left;
+    padding: 25px 10px 25px 25px;
+}
+
+.annual-plan-title {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    line-height: 3px;
+}
+
+.price {
+    height: 5px;
+    line-height: 3px;
+}
+
+.annual-pricing {
+    float: left;
+    padding: 5px;
+}
+
+.changing-plans {
+    color: hsl(245, 75%, 52%);
+    font-size: 18px;
+    margin: 0;
+    font-weight: 700;
+    float: inline-end;
+    padding: 20px 0px 20px 240px;
+    
+}
+
+.change-plan:hover{
+    text-decoration: none;
+    color: hsl(244, 82%, 68%);
+}
+
+/*Payment and Cancel Buttons*/
+
+.payment {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    margin-top: 15px;
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px;
+    box-shadow: 0px 15px 20px hsl(246, 89%, 93%);
+}
+
+.payment:hover{
+    background-color: hsl(244, 82%, 68%);
+}
+
+.cancel {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+    margin-top: 25px;
+    margin-bottom: 45px;
+    border: 0px;
+}
+
+.cancel:hover{
+    color: hsl(223, 47%, 23%);
+}
+
+/*Footer*/
+footer {
+text-align: center;
+}
+
+
+
+
